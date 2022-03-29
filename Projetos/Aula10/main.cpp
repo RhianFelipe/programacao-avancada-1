@@ -97,6 +97,9 @@ int main() {
     //  - Criar uma classe Playstation: Produto
     //      - calcularDesconto()  - 20%
 
+    // No main, criar um vetor de 5 produtos
+    //   - 2 camisetas, 2 bermudas, 1 playstation
+    //   - percorrer com o for, imprimindo cada produto
 
 
     return 0;
