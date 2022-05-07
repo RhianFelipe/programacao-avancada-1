@@ -3,7 +3,7 @@
 #include "Poligono.h"
 
 class Retangulo : public Poligono{
-public:
+public:-
     Retangulo(int base, int altura) : Poligono(4),
                                       _base(base),
                                       _altura(altura) {
