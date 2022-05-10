@@ -104,6 +104,7 @@ int main() {
     deq2[2] = "melão";
 
     for (int i = 0; i < deq2.size(); i++) {
+        string valor = deq2[i];
         cout << "deq2[" << i << "] = " << deq2[i] << endl;
     }
     cout << endl;
@@ -117,12 +118,17 @@ int main() {
     deq2.push_front("limão");
     deq2.push_front("limão");
 
+    // Remover elementos do final ou do começo
+    //deq2.pop_back();
+    //deq2.pop_front();
+
     // Percorrendo o deque usando iterador
     for (auto it2 = deq2.begin(); it2 != deq2.end(); it2++) {
         cout << *it2 << endl;
     }
     cout << endl;
 
+    // Sintaxe do for_each (para cada) C++14
     for (const string &x : deq3) {
         cout << x << endl;
     }
